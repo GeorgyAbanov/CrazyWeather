@@ -27,7 +27,7 @@ public class ItemFall : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        itemRb.AddForce(Vector3.up  * itemRb.mass * gMoon);
+        itemRb.AddForce(Vector3.up * itemRb.mass * gMoon);
     }
 
     private void OnTriggerEnter(Collider collision)
